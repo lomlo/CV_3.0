@@ -23,7 +23,6 @@ html {
   height: 100%;
   position: absolute;
   background: inherit;
-  z-index: -1;
   bottom: 0;
   transform-origin: left bottom;
   transform: skewY(2deg);
@@ -44,7 +43,6 @@ html {
   height: 100%;
   position: absolute;
   background: black;
-  z-index: 3;
   bottom: 0;
   transform-origin: right top;
   transform: skewY(2deg);
@@ -58,18 +56,21 @@ html {
 
 /*HEADER*/
 
-.header {
+.header:not(.header::after) {
   text-align: right;
 }
 
 h1 {
-  color: white;
+  z-index: 5;
+  font-family: HelveticaNeue;
+  color: green;
   display: inline-block;
+  position: relative;
   float: left;
-  margin: 60px 0px 0px 90px;
 }
 
 nav {
+  float: right;
   position: relative;
   margin: 50px 90px 50px 0px;
   display: inline-block;

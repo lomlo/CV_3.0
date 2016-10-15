@@ -4,8 +4,8 @@ html,body {
 }
 
 html {
-  background: url(img/cave.JPG) no-repeat;
-  background-size: 100% 100%;
+  background: url(img/architecture.jpeg) no-repeat center;
+  background-size: contain;
 }
 
 .header {

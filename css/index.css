@@ -4,7 +4,7 @@ html,body {
 }
 
 html {
-  background: url(img/architecture.jpeg) no-repeat center;
+  background: url(../img/architecture.jpeg) no-repeat center;
   background-size: contain;
 }
 
@@ -56,26 +56,13 @@ html {
   background-color: black;
 }
 
-/*.main::before {
-    content: '';
-    width: 100%;
-    height: 70%;
-    position: absolute;
-    background: inherit;
-    z-index: -1;
-    bottom: 0;
-    transform-origin: left top;
-    transform: skewY(3deg);
-}*/
+/*HEADER*/
 
-/*.header_border{
-  height: 15px;
-  width: 100%;
-  position: relative;
-  background: #000000;
-}*/
+.header {
+  text-align: right;
+}
 
-/*h1 {
+h1 {
   color: white;
   display: inline-block;
   float: left;
@@ -86,6 +73,7 @@ nav {
   position: relative;
   margin: 50px 90px 50px 0px;
   display: inline-block;
+  z-index: 2;
 }
 
 nav ul {

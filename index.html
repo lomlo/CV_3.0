@@ -4,12 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width">
   <title>Michael Lo</title>
-  <link rel="stylesheet" href="css/index.css">
-
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
 </head>
-<body>
+<body id="bootstrap-overrides">
   <div class="header">
-    <div id="logo">
       <h1>ML</h1>
       <nav>
         <ul>
@@ -18,15 +17,33 @@
           <li><a href="">Story</a></li>
         </ul>
       </nav>
-    </div>
   </div>
   <div class="main">
-    <div class="flexcontainer">
-      <div><img src="img/iphone6.png"></div>
+    <div class="row">
+      <div class="col-md-4 col-centered">
+        <img class="img-responsive"src="img/See_iphone_white.png">
+      </div>
+      <div class="col-md-4 col-centered">
+        <img class="img-responsive"src="img/Chicken_browser.png">
+      </div>
+      <div class="col-md-4 col-centered">
+        <img class="img-responsive"src="img/East_mobile_white.png">
+      </div>
     </div>
-    <div class="flexcontainer">
+    <div class="row top-buffer">
+      <div class="col-md-2"></div>
+      <div class="col-md-4">
+        <img class="img-responsive" src="img/GRTTD_browser_white.png">
+      </div>
+      <div class="col-md-4">
+        <img class="img-responsive" src="img/card_iphone_white.png">
+      </div>
+      <div class="col-md-2"></div>
     </div>
+  </div>
   <div class="bottom"></div>
 </div>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 </body>
 </html>

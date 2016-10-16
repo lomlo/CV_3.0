@@ -116,6 +116,11 @@ nav a, nav a:visited, nav a:link {
   padding-top: 10%;
 }
 
+#next_project_link {
+  position:relative;
+  left: 40%;
+}
+
 .main .row {
   top:-90px;
 }

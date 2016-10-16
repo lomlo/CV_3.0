@@ -33,6 +33,10 @@ html, body {
   transform: skewY(2deg);
 }
 
+#active {
+  text-decoration: underline;
+}
+
 .main {
   top: 3%;
   height: 75%;

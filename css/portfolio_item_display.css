@@ -41,7 +41,7 @@ html, body {
   max-width: 800px;
   margin: auto;
   position: relative;
-  background: rgba(255,255,255, 0.8);
+  background: rgba(255,255,255, 1);
 }
 
 /*.main::before {
@@ -120,9 +120,9 @@ nav a, nav a:visited, nav a:link {
   top:-90px;
 }
 
-.main img {
+.main img, .content-below img {
   margin: auto;
-  max-height: 250px;
+  max-height: 300px;
 }
 
 #portfolio_title {
@@ -134,9 +134,23 @@ nav a, nav a:visited, nav a:link {
   padding-top: 10%;
 }
 .content-below {
+  text-align: center;
+  padding: 30px;
   position: relative;
-  height: 400px;
   width: 100%;
   border-top: solid black 2px;
   background-color: white;
+}
+
+#next_project_button {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+#next_project_button a {
+  font-size: 20px;
+  font-family: HelveticaNeue;
+  color: black;
+  padding: 20px;
+  border: 2px black solid;
 }

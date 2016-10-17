@@ -116,6 +116,13 @@ nav a, nav a:visited, nav a:link {
   padding-top: 10%;
 }
 
+#scroll_link {
+  right: 200px;
+}
+
+
+
+
 #next_project_link {
   position:relative;
   left: 40%;
@@ -126,9 +133,15 @@ nav a, nav a:visited, nav a:link {
   top:-90px;
 }
 
-.main img, .content-below img {
+.main img{
   margin: auto;
   max-height: 300px;
+  max-width:300px;
+}
+
+.content-below img, .content-below video {
+  margin: auto;
+  max-height: 500px;
 }
 
 #portfolio_title {
@@ -159,4 +172,9 @@ nav a, nav a:visited, nav a:link {
   color: black;
   padding: 20px;
   border: 2px black solid;
+}
+
+#sub_image {
+  max-width:300px;
+  max-height:200px;
 }

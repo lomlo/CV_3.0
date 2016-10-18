@@ -177,4 +177,9 @@ nav a, nav a:visited, nav a:link {
 #sub_image {
   max-width:300px;
   max-height:200px;
+  margin-top: 150px;
+}
+
+#center {
+  margin-top:150px;
 }

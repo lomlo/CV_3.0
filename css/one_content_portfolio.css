@@ -1,5 +1,11 @@
 /*for_one_page */
 
 .content-below img {
-    max-height: 1500px;
+    max-height: none;
+    max-width: 95%;
+}
+
+#fill_width {
+  max-height:none;
+  max-width: 80%;
 }
